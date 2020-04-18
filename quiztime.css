@@ -1,0 +1,108 @@
+body {
+    background-color:black;
+}
+
+.grid{
+    width:300px;
+    height:600px;
+    margin: 0 auto;
+    background-color:white;
+    padding: 10px 50px 50px 50px;
+    border-radius:25px;
+}
+
+.grid h1{
+    font-family:Avenir;
+    text-align:center;
+}
+
+.grid h2{
+    font-family:Avenir;
+    font-size:12px;
+    text-align:center;
+}
+
+.grid #text {
+    font-family:Avenir;
+    font-size:16px;
+    padding:5px;
+    text-align:justify;
+    }
+
+.grid #scoretext {
+    font-family:Avenir;
+    font-size:16px;
+    padding:15px;
+    text-align:center;
+    }
+
+.grid #scorenumber{
+    front-family:Avenir;
+    font-size:8px;
+    text-align:center;
+    background-color:white;
+    width:76px;
+    color:#778897;
+    border: 2px solid;
+    border-radius: 50px;
+
+}
+
+.buttons{
+    text-align:center;
+    font-family:Avenir;
+}
+
+#btn4{
+    text-align:center;
+    font-family:Avenir;
+    background-color:#778897;
+    width:125px;
+    height:125px;
+    font-size:24px;
+    color:white;
+    border: 5px solid;
+    border-radius: 75px;
+    margin: 10px 0px 10px 0px;
+    padding: 10px;
+    box-shadow: 0 0 0 5px powderblue;
+}
+
+#btn5, #btn6 {
+    text-align:center;
+    font-family:Avenir;
+    background-color:#778897;
+    width:250px;
+    font-size:18px;
+    color:white;
+    border: 1px solid;
+    border-radius: 25px;
+    margin: 10px 0px 10px 0px;
+    padding: 10px;
+}
+
+#btn0, #btn1, #btn2, #btn3{
+    background-color:#778897;
+    width:250px;
+    font-size:18px;
+    color:white;
+    border: 1px solid;
+    border-radius: 2px;
+    margin: 10px 0px 10px 0px;
+    padding: 10px;
+}
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover, #btn4:hover, #btn5:hover, #btn6:hover{
+    cursor:pointer;
+    background-color:powderblue;
+}
+
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus, #btn4:focus, #btn5:focus, #btn6:focus{
+    outline:0;
+}
+
+#progress {
+    font-family:Garamond;
+    font-size:18px;
+    text-align:center;
+}

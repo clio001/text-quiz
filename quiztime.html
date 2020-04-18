@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz Time</title>
+    <link rel="stylesheet" href="quiztime.css">
+    <script src="app.js"></script>
+    <script src="text.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+</head>
+<body>
+<script>
+    $(document).ready(function(){
+        $('#btn0').hide();
+        $('#btn1').hide();
+        $('#btn2').hide();
+        $('#btn3').hide();
+        $('#btn5').hide();
+        $('#btn6').hide();
+        $('#scorenumber').hide();
+        $('#scoretext').hide();
+    });
+</script>
+    <div class="grid">
+        <div id="quiz">
+            <h1>Quiz Time</h1>
+            <hr style="margin-top:10px;">
+            <h2 id="zaehler"></h2>
+
+            <p id="text"></p>
+            <center><p id="scorenumber"></p>
+            <p id="scoretext"></p></center>
+
+            <div class="buttons">
+                <button id="btn0" onclick="Check(this.id)"><span id="choice0"></span> </button><br>
+                <button id="btn1" onclick="Check(this.id)"><span id="choice1"></span> </button><br>
+                <button id="btn2" onclick="Check(this.id)"><span id="choice2"></span> </button><bR>
+                <button id="btn3" onclick="Check(this.id)"><span id="choice3"></span> </button><br><br>
+                <button id="btn4" onclick="Start()">Start</button>
+                <button id="btn5" onclick="Weiter()">Next</button>
+                <button id="btn6" onClick="Start()">Again</button>
+            </div>
+
+            <footer>
+
+                <p id="progress"></p>
+            </footer>
+        </div>
+    </div>
+
+
+</body>
+</html>
