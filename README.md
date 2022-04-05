@@ -1,2 +1,3 @@
 # text-quiz
-Interactive text-based quiz.
+Fun interactive quiz.
+Javascript | JQuery | HTML | CSS
