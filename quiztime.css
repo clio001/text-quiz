@@ -72,7 +72,20 @@ body {
   box-shadow: 0 0 0 5px powderblue;
 }
 
-#btn5,
+#btn5 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+  width: 250px;
+  font-size: 18px;
+  color: #778897;
+  border: 1px solid;
+  border-color: #778897;
+  border-radius: 25px;
+  margin: 10px 0px 10px 0px;
+  padding: 10px;
+}
+
 #btn6 {
   text-align: center;
   font-family: "Roboto", sans-serif;
